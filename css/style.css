@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f6f6f9;
+}
+
+h1 {
+    color: #428bca;
+    border: 1px solid #cdcdcd;
+    border-left: 3px solid #428bca;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    user-select: none;
+    display: block;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    max-width: 400px;
+    margin: 25px auto 0;
+}
+
+#contenedor {
+    padding: 30px;
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    border-radius: 15px;
+    border: 1px solid #cdcdcd;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #2e2e2e;
+    user-select: none;
+}
+
+input, button { display: block; width: 100%; }
+
+input {
+    padding: 10px 15px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    color: #333;
+    margin-top: 6px;
+}
+
+input:is(:focus) {
+    border: 1px solid #4169e1;
+    outline: 1px solid #4169e1;
+}
+
+button {
+    margin-top: 10px;
+    border: 2px solid var(--color);
+    background-color: var(--color);
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color .5s, color .5s;
+    user-select: none;
+}
+
+.azul {
+    --color: #428bca;
+}
+
+.rojo {
+    --color: #d9534f;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #888;
+}
+
+p {
+    padding: 10px 15px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    color: #343434;
+}
